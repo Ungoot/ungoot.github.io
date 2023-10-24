@@ -29,8 +29,6 @@ h6 {
 }
 
 /* index.html */
-
-
 .my-letter-spacing {
   letter-spacing: 4px;
 }
@@ -49,34 +47,34 @@ img {
 a {
   color: inherit;
 }
-.avatar-bg{
+.avatar-bg {
   background-image: url("../img/back-ground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
 }
 .focus-in-expand-fwd {
-	animation: focus-in-expand-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+  animation: focus-in-expand-fwd 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s
+    both;
 }
 
 @keyframes focus-in-expand-fwd {
   0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
-            transform: translateZ(-800px);
+    transform: translateZ(-800px);
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
-
 
 .my-button {
   border: none;
@@ -180,91 +178,91 @@ a {
   margin-bottom: 16px;
 }
 .my-small {
-  font-size: 12px !important;
+  font-size: 12px;
 }
 .my-large {
-  font-size: 18px !important;
+  font-size: 18px;
 }
 .my-xlarge {
-  font-size: 24px !important;
+  font-size: 24px;
 }
 .my-xxlarge {
-  font-size: 36px !important;
+  font-size: 36px;
 }
 .my-jumbo {
-  font-size: 64px !important;
+  font-size: 64px;
 }
 .my-justify {
-  text-align: justify !important;
+  text-align: justify;
 }
 .my-center {
-  text-align: center !important;
+  text-align: center;
 }
 .my-section {
-  margin-top: 16px !important;
-  margin-bottom: 16px !important;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .my-margin-bottom {
-  margin-bottom: 16px !important;
+  margin-bottom: 16px;
 }
 .my-margin-right {
-  margin-right: 16px !important;
+  margin-right: 16px;
 }
 .my-padding-large {
-  padding: 12px 24px !important;
+  padding: 12px 24px;
 }
 .my-padding-16 {
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .my-padding-24 {
-  padding-top: 24px !important;
-  padding-bottom: 24px !important;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .my-padding-32 {
-  padding-top: 32px !important;
-  padding-bottom: 32px !important;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .my-padding-64 {
-  padding-top: 64px !important;
-  padding-bottom: 64px !important;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .my-left {
-  float: left !important;
+  float: left;
 }
 .button:hover {
-  color: #000 !important;
-  background-color: #ccc !important;
+  color: #000;
+  background-color: #ccc;
 }
 .my-white,
 .my-hover-white:hover {
-  color: #000 !important;
-  background-color: #fff !important;
+  color: #000;
+  background-color: #fff;
 }
 .my-black,
 .my-hover-black:hover {
-  color: #fff !important;
-  background-color: #040404 !important;
+  color: #fff;
+  background-color: #040404;
 }
 .my-light-grey,
 .my-hover-light-grey:hover {
-  color: #000 !important;
-  background-color: #f1f1f1 !important;
+  color: #000;
+  background-color: #f1f1f1;
 }
 .my-dark-grey,
 .my-hover-dark-grey:hover {
-  color: #fff !important;
-  background-color: #616161 !important;
+  color: #fff;
+  background-color: #616161;
 }
 .my-hover-text-white:hover,
 .my-text-white {
-  color: #fff !important;
+  color: #fff;
 }
 .my-hover-text-grey:hover,
 .my-text-grey {
-  color: #757575 !important;
+  color: #757575;
 }
 .my-hover-text-light-grey:hover,
 .my-text-light-grey {
-  color: #f1f1f1 !important;
+  color: #f1f1f1;
 }
